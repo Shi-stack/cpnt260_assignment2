@@ -1,0 +1,228 @@
+/*Font Style*/
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Sriracha&display=swap');
+/* font-family: 'Lemonada', cursive;
+font-family: 'Sriracha', cursive;*/
+
+/*Basic Reset*/
+body {
+  margin:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+/***********************************************************************************/
+body{
+  background-color: #EDC7B7;
+  margin:0;
+}
+/**** HEADER ****/
+header{
+  color:#123c69;
+  font-size: 4rem;
+  font-family: 'Lemonada', cursive;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+/************************** NAVIGATION STARTS FROM HERE **********************************/
+ul{
+  list-style:none;
+}
+.nav > a * {
+  text-decoration:none;
+}
+
+/*Design Login Button*/
+/*.login {
+  border:2px;
+  border-radius: 40px;
+  background-color:	#EDC7B7;
+  box-shadow: 10px 5px 5px #AC3B61;
+  padding:10px;
+  margin:0;
+}*/
+
+/*************************  NAVIGATION ENDS HERE******************************************/
+/************ CARD PATTERN ****************************/
+/*Main Header*/
+h1 {
+  color:#123c69;;
+  font-size: 40px;
+  font-family: 'Sriracha', cursive;
+  text-align: center;
+  text-decoration: underline;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ /** making nav hover and active **/
+
+ .nav>ul>* a:hover{
+   background-color: #BAB2B5;
+ }
+
+ .nav>ul> * a:active {
+   background-color: #123c69;
+ }
+/* Card Header */
+
+.header1 {
+  padding: 1.5rem;
+  color:#123c69;
+  font-size: 20px;
+  font-family: 'Sriracha', cursive;
+  font-style: italic;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Designing Nav Menu */
+li * {
+
+  color:#AC3B61;
+  padding:0;
+  margin:0;
+  font-family: 'Lemonada', cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*Creating Nav responsive*/
+.nav * {
+  /*background-color: #EEE2DC;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  padding: 0.2rem; 
+}
+ /******** CONTAINER WHERE ALL CARDS ARE INSERTED ******/
+.container {
+  text-align:center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:2rem;
+  margin:0;
+  
+}
+/* All h1 styling*/
+
+h3{
+  color:#123c69;;
+  font-size: 20px;
+  font-family: 'Lemonada', cursive;
+  text-align: center;
+}
+
+/* Styling paragraph*/
+
+/**p{
+  color:black;
+  font-size: 15px;
+  font-family: 'Lemonada', cursive;
+  max-width: 40ch;
+  padding:0;
+  letter-spacing:0.5px;
+  text-align: center;
+
+}**/
+
+/*Styling all button */
+
+.button {
+  padding:0.5rem;
+  margin:0.5rem;
+  border-radius: 10%;
+
+}
+
+/*Styling all contacts svg fb, twitter, linkedin*/
+
+.contacts{
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2rem;
+  padding:0.5rem;
+  background-color:#123c69;
+
+}
+
+.svg * {
+  color:#EEE2DC;
+}
+
+  /*Image of Shivani*/
+
+.image{
+  height:200px;
+  padding:0.5rem;
+  align-items: center;  
+}
+/*Image of Ronak*/
+
+.image2 {
+  height: 200px;
+  padding: 0.5rem;
+  align-items: center;
+ 
+}
+/*shailendras image*/
+.image3 {
+  height: 200px;
+  padding: 0.5rem;
+  align-items: center;
+}
+/*Designing of image2*/
+
+  /* Styling card*/
+  .card1 {
+    background-color:#EEE2DC;
+    border:8px solid #123c69;;
+    border-radius: 30px;
+    /*max-width: 600px;*/
+    /*padding:0.5rem;*/
+    margin:0;
+
+  }
+
+  .card2 {
+    background-color:#EEE2DC;
+    border:8px solid #123c69;;
+    border-radius: 30px;
+    /*max-width: 500px;*/
+    /* height: auto; */
+    /*padding:0.5rem;*/
+    margin:0;
+  }
+
+  .card3 {
+    background-color:#EEE2DC;
+    border:8px solid #123c69;;
+    border-radius: 30px;
+    /*max-width: 400px;*/
+    /*height: auto;*/
+    /*padding:0.5rem;*/
+    margin:0;
+  }
+
+/***************** CARD PATTERN ENDS *******************/
+
+/**************************   FOOTER GOES HERE  **********************************/
+ 
+footer{
+  padding:0.5rem;
+  color: #AC3B61;
+  height:50px;
+  font-family: 'Sriracha', cursive;
+  font-size: 1.2rem; 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+/*****************************  FOOTER ENDS HERE   *******************************/
+
+
